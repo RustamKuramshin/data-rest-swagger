@@ -1,0 +1,36 @@
+GET /
+Host: localhost:8080
+
+###
+
+POST /people
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "firstName": "Bill",
+  "lastName": "Geyts"
+}
+
+###
+
+GET /people/1
+Host: localhost:8080
+
+###
+
+PUT /people/1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "firstName": "Bilbo",
+  "lastName": "Baggins"
+}
+
+###
+
+DELETE /people/1
+Host: localhost:8080
+
+###
